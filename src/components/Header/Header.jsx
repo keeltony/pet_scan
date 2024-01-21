@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import './header.css';
+import './Header.css';
 import { Link } from 'react-router-dom';
 import { observer } from 'mobx-react-lite';
 import logo from '../../assets/images/logoHeader.svg';
@@ -8,7 +8,7 @@ import NotAuthorized from './NotAuthorized/NotAuthorized';
 import NavigationMenu from './NavigationMenu/NavigationMenu';
 import store from '../../store/store';
 
-export default Header = observer(() => {
+const Header = observer(() => {
   useEffect(() => {
     store.checkToken();
   }, []);
@@ -35,4 +35,4 @@ export default Header = observer(() => {
   );
 });
 
-
+export default Header
