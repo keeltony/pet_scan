@@ -6,17 +6,17 @@ export default function Footer() {
     <footer className='footer'>
       <img src={logo} alt='' />
       <div>
-        <p className='footer_info'>
+        <p className='footer-info'>
           г. Москва, Цветной б-р, 40 <br />
-          <a className='footer_info' href='tel:+74957712111'>
+          <a className='footer-info' href='tel:+74957712111'>
             +7 495 771 21 11
           </a>
           <br />
-          <a className='footer_info' href='mailto: info@skan.ru'>
+          <a className='footer-info' href='mailto: info@skan.ru'>
             info@skan.ru
           </a>
         </p>
-        <p className='footer_info'>Copyright. 2023</p>
+        <p className='footer-info top_margin' >Copyright. 2023</p>
       </div>
     </footer>
   );
