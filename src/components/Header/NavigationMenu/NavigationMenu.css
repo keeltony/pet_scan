@@ -1,16 +1,16 @@
-.nav-button__open {
+.nav_button__open {
   display: none;
 }
 
 @media all and (max-width: 850px) {
-  .nav-button__open {
+  .nav_button__open {
     display: flex;
     background-image: url(../../../assets/images/buttonOpen.svg);
     width: 30px;
     height: 25px;
   }
 
-  .nav-button__close {
+  .nav_button__close {
     background-image: url(../../../assets/images/buttonClose.svg);
     width: 25px;
     height: 25px;
@@ -18,7 +18,7 @@
     background-color: transparent;
   }
 
-  .nav-menu {
+  .nav_menu {
     padding: 0 20px 20px;
     position: fixed;
     top: 0px;
@@ -30,24 +30,24 @@
     z-index: 1;
   }
 
-  .nav-top {
+  .nav_top {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
 
-  .nav-logo {
+  .nav_logo {
     width: 100px;
     height: 100px;
   }
 
-  .nav-nav {
+  .nav_nav {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-  .nav-nav__link {
+  .nav_nav__link {
     color: #fff;
     font-size: 16px;
     line-height: 19px;
@@ -56,14 +56,14 @@
     margin-bottom: 26px;
   }
 
-  .nav__not-signed {
+  .nav__not_signed {
     margin-top: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-  .nav__sign-up {
+  .nav__sign_up {
     text-decoration: none;
     margin-bottom: 20px;
     font-size: 16px;
@@ -74,7 +74,7 @@
     opacity: 0.4;
   }
 
-  .nav__sign-in {
+  .nav__sign_in {
     font-size: 20px;
     line-height: 24px;
     font-weight: 500;
@@ -88,14 +88,14 @@
     text-align: center;
   }
 
-  .nav__user-info {
+  .nav__user_info {
     margin-top: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-  .nav__user-avatar {
+  .nav__user_avatar {
     width: 64px;
     height: 64px;
     margin: 10px;

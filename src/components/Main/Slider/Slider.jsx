@@ -6,7 +6,7 @@ import 'slick-carousel/slick/slick-theme.css';
 import time from '../../../assets/images/time.svg';
 import search from '../../../assets/images/search.svg';
 import safety from '../../../assets/images/safety.svg';
-import happy from '../../../assets/images/happy.svg';
+
 
 export default function HorizontalSlider() {
   let settings = {
@@ -51,8 +51,18 @@ export default function HorizontalSlider() {
     },
 
     {
-      text: '99,99% процентов довольных клиентов, станьте одним из них!',
-      image: happy,
+      text: 'Высокая и оперативная скорость обработки заявки',
+      image: time,
+    },
+
+    {
+      text: 'Огромная комплексная база данных, обеспечивающая объективный ответ на запрос',
+      image: search,
+    },
+
+    {
+      text: 'Защита конфеденциальных сведений, не подлежащих разглашению по федеральному законодательству',
+      image: safety,
     },
   ];
 
